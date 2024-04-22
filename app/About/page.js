@@ -11,9 +11,7 @@ const About = () => {
     <div className="mt-28">
       {details.map((detail) => (
         <li key={detail.id} className=" text-center ">
-          <Link href={`/About/${detail.id}`}>
-            {detail.name} , {detail.role}
-          </Link>
+          <Link href={`/About/${detail.id}`}>{detail.name}</Link>
         </li>
       ))}
     </div>
