@@ -19,7 +19,7 @@ const data = [
 ];
 
 const IndexPage = () => {
-  return <MeetupList meetups={data} />;
+  return <MeetupList />;
 };
 
 export default IndexPage;
